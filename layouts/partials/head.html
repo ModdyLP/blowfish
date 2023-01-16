@@ -18,12 +18,15 @@
   <meta name="description" content="{{ . }}" />
   {{- end }}
   {{$keywords := ""}}
-  {{ with delimit .Site.Params.keywords "," -}}
-      {{ $keywords = . }}
+   {{/* Fallback for no keywords in frontmatter */}}
+  {{ with .Site.Params.keywords -}}
+      {{ $keywords = delimit . ","}}
   {{- end }}
-  {{ with delimit .Keywords "," -}}
-    {{ $keywords = (print $keywords  "," . ) }}
+  {{/* Parse Keywords in Frontmatter to variable */}}
+  {{ with .Params.Keywords -}}
+    {{ $keywords = delimit . "," }}
   {{- end }}
+  {{/* printing keywords to meta tag */}}
   <meta name="keywords" content="{{ $keywords }}" />
   {{ with .Site.Params.robots }}
   <meta name="robots" content="{{ . }}" />
