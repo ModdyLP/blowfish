@@ -23,6 +23,7 @@ exampleSite/resources/
 node_modules
 .hugo_build.lock
 .idea
+<<<<<<< HEAD
 
 # OS generated files
 .DS_Store
@@ -30,3 +31,5 @@ node_modules
 ._*
 .Spotlight-V100
 .Trashes
+=======
+>>>>>>> 50eb194ce20019b38ecdb1b5033bf2d8dc4920d0
