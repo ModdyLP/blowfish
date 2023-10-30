@@ -1,19 +1,19 @@
 {{/* Firebase */}}
-{{ with $.Site.Params.firebase }}
-{{ if isset $.Site.Params "firebase" }}
+{{ with $.Params.firebase }}
+{{ if isset $.Params "firebase" }}
 <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
 <script>
 
   const firebaseConfig = {
-    apiKey: '{{ $.Site.Params.firebase.apiKey }}',
-  authDomain: '{{ $.Site.Params.firebase.apiKey }}',
-  projectId: '{{ $.Site.Params.firebase.projectId }}',
-  storageBucket: '{{ $.Site.Params.firebase.storageBucket }}',
-  messagingSenderId: '{{ $.Site.Params.firebase.messagingSenderId }}',
-  appId: '{{ $.Site.Params.firebase.appId }}',
-  measurementId: '{{ $.Site.Params.firebase.measurementId }}'
+    apiKey: '{{ $.Params.firebase.apiKey }}',
+    authDomain: '{{ $.Params.firebase.apiKey }}',
+    projectId: '{{ $.Params.firebase.projectId }}',
+    storageBucket: '{{ $.Params.firebase.storageBucket }}',
+    messagingSenderId: '{{ $.Params.firebase.messagingSenderId }}',
+    appId: '{{ $.Params.firebase.appId }}',
+    measurementId: '{{ $.Params.firebase.measurementId }}'
   };
 
   var app = firebase.initializeApp(firebaseConfig);
