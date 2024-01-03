@@ -1,8 +1,8 @@
 ---
-                title: "jahsehj.github.io"
-                tags: [Personal site mainly in Chinese]
-                externalUrl: "https://jahsehj.github.io/"
-                date: 9947-08-08
+                title: "blog.stonegarden.dev"
+                tags: [Personal Site]
+                externalUrl: "https://blog.stonegarden.dev/"
+                date: 9930-08-08
                 showDate: false
                 showAuthor: false
                 showReadingTime: false

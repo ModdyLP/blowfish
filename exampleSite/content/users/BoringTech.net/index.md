@@ -1,8 +1,8 @@
 ---
-                title: "nunocoracao.com"
-                tags: [Personal site,Theme author]
-                externalUrl: "https://nunocoracao.com"
-                date: 9999-08-08
+                title: "BoringTech.net"
+                tags: [Personal Site,Blog]
+                externalUrl: "https://boringtech.net/"
+                date: 9928-08-08
                 showDate: false
                 showAuthor: false
                 showReadingTime: false

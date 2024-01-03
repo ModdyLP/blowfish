@@ -1,7 +1,7 @@
 [
   {
-    "title": "nunocoracao.com",
-    "url": "https://nunocoracao.com",
+    "title": "n9o.xyz",
+    "url": "https://n9o.xyz",
     "tags": [
       "Personal site",
       "Theme author"
@@ -365,13 +365,6 @@
     ]
   },
   {
-    "title": "jahsehj.github.io",
-    "url": "https://jahsehj.github.io/",
-    "tags": [
-      "Personal site mainly in Chinese"
-    ]
-  },
-  {
     "title": "jundimubarok.com",
     "url": "https://jundimubarok.com/",
     "tags": [
@@ -467,6 +460,64 @@
     "url": "https://joush007.github.io",
     "tags": [
       "Personal Site"
+    ]
+  },
+  {
+    "title": "rejowski.xyz",
+    "url": "https://rejowski.xyz/",
+    "tags": [
+      "Personal Site"
+    ]
+  },
+  {
+    "title": "ctulhu.me",
+    "url": "https://ctulhu.me",
+    "tags": [
+      "Personal site"
+    ]
+  },
+  {
+    "title": "v-y-s.com",
+    "url": "https://v-y-s.com/",
+    "tags": [
+      "Personal Site"
+    ]
+  },
+  {
+    "title": "blog.stonegarden.dev",
+    "url": "https://blog.stonegarden.dev/",
+    "tags": [
+      "Personal Site"
+    ]
+  },
+  {
+    "title": "renaud.warnotte.be",
+    "url": "https://renaud.warnotte.be",
+    "tags": [
+      "Personal site"
+    ]
+  },
+  {
+    "title": "BoringTech.net",
+    "url": "https://boringtech.net/",
+    "tags": [
+      "Personal Site",
+      "Blog"
+    ]
+  },
+  {
+    "title": "technicaldc.github.io",
+    "url": "https://technicaldc.github.io/",
+    "tags": [
+      "Personal Site",
+      "Blog"
+    ]
+  },
+  {
+    "title": "binarydigit.cafe",
+    "url": "https://binarydigit.cafe/",
+    "tags": [
+      "Personal site"
     ]
   }
 ]
