@@ -1,8 +1,8 @@
 ---
-                title: "spelucin.me"
-                tags: [Personal site]
-                externalUrl: "https://spelucin.me"
-                date: 9983-08-08
+                title: "innerknowing"
+                tags: [Personal site,Modeller]
+                externalUrl: "https://innerknowing.xyz"
+                date: 9921-08-08
                 showDate: false
                 showAuthor: false
                 showReadingTime: false

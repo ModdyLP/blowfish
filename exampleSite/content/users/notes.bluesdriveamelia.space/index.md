@@ -1,8 +1,8 @@
 ---
-                title: "shenshu.fun"
-                tags: [Personal site]
-                externalUrl: "https://shenshu.fun/"
-                date: 9960-08-08
+                title: "notes.bluesdriveamelia.space"
+                tags: [Blog,Personal site]
+                externalUrl: "https://notes.bluesdriveamelia.space/"
+                date: 9925-08-08
                 showDate: false
                 showAuthor: false
                 showReadingTime: false

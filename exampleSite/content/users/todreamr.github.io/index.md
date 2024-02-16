@@ -1,8 +1,8 @@
 ---
-                title: "tabletopflore.com"
+                title: "todreamr.github.io"
                 tags: [Personal site]
-                externalUrl: "https://www.tabletopflore.com"
-                date: 9985-08-08
+                externalUrl: "https://todreamr.github.io/"
+                date: 9923-08-08
                 showDate: false
                 showAuthor: false
                 showReadingTime: false
