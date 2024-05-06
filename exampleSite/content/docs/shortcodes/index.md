@@ -204,6 +204,7 @@ The `figure` shortcode accepts six parameters:
 | `caption` | Markdown for the image caption, which will be displayed below the image.                                                                                                                                                                                                                                                                                                                  |
 | `class`   | Additional CSS classes to apply to the image.                                                                                                                                                                                                                                                                                                                                             |
 | `href`    | URL that the image should be linked to.                                                                                                                                                                                                                                                                                                                                                   |
+| `target`  | The target attribute for the `href` URL.                                                                                                                                                                                                                                                                                                                                                  |
 | `nozoom`  | `nozoom=true` disables the image "zoom" functionality. This is most useful in combination with a `href` link.                                                                                                                                                                                                                                                                             |
 | `default` | Special parameter to revert to default Hugo `figure` behaviour. Simply provide `default=true` and then use normal [Hugo shortcode syntax](https://gohugo.io/content-management/shortcodes/#figure).                                                                                                                                                                                       |
 <!-- prettier-ignore-end -->
@@ -728,3 +729,48 @@ consectetur adipiscing elit.
 "I'm gonna make him an offer he can't refuse." The Godfather (1972)
 "Toto, I've a feeling we're not in Kansas anymore." The Wizard of Oz (1939)
 {{< /typeit >}}
+
+
+<br/><br/><br/>
+
+## Youtube Lite
+
+A shortcut to embed youtube videos using the [lite-youtube-embed](https://github.com/paulirish/lite-youtube-embed) library. This library is a lightweight alternative to the standard youtube embeds, and it's designed to be faster and more efficient.
+
+<!-- prettier-ignore-start -->
+| Parameter | Description                                  |
+| --------- | -------------------------------------------- |
+| `id`      | [String] Youtube video id to embed.          |
+| `label`   | [String] Label for the video                 |
+| `params`  | [String] Extras parameters for video playing |
+<!-- prettier-ignore-end -->
+
+**Example 1:**
+
+```md
+{{</* youtubeLite id="SgXhGb-7QbU" label="Blowfish-tools demo" */>}}
+```
+
+{{< youtubeLite id="SgXhGb-7QbU" label="Blowfish-tools demo" >}}
+
+**Example 2:**
+
+You can use all of Youtube's [player parameters](https://developers.google.com/youtube/player_parameters#Parameters) for the `params` variable, as demonstrated below:
+
+> This video will start after 130 seconds (2m10)
+
+```md
+{{</* youtubeLite id="SgXhGb-7QbU" label="Blowfish-tools demo" params="start=130" */>}}
+```
+
+> This video will not have UI controls, will start playing at 130 seconds and will stop 10 seconds later.
+
+To concatenate multiple options as shown below, you need to add the `&` character between them.
+
+```md
+{{</* youtubeLite id="SgXhGb-7QbU" label="Blowfish-tools demo" params="start=130&end=10&controls=0" */>}}
+```
+
+{{< youtubeLite id="SgXhGb-7QbU" label="Blowfish-tools demo" params="start=130&end=10&controls=0" >}}
+
+More informations can be found on the [youtubeLite GitHub repo](https://github.com/paulirish/lite-youtube-embed/blob/master/readme.md#custom-player-parameters) and Youtube's [player parameters](https://developers.google.com/youtube/player_parameters#Parameters) page.

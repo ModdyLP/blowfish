@@ -22,7 +22,6 @@ exampleSite/resources/
 #others
 node_modules
 .hugo_build.lock
-.idea
 
 # OS generated files
 .DS_Store
@@ -31,3 +30,5 @@ node_modules
 .Spotlight-V100
 .Trashes
 .idea
+.Ulysses-Group.plist
+.Ulysses-Settings.plist
