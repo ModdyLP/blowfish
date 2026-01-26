@@ -1,0 +1,25 @@
+{{/* Firebase */}}
+{{ with $.Params.firebase }}
+{{ if isset $.Params "firebase" }}
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+<script>
+
+  const firebaseConfig = {
+    apiKey: '{{ $.Params.firebase.apiKey }}',
+    authDomain: '{{ $.Params.firebase.apiKey }}',
+    projectId: '{{ $.Params.firebase.projectId }}',
+    storageBucket: '{{ $.Params.firebase.storageBucket }}',
+    messagingSenderId: '{{ $.Params.firebase.messagingSenderId }}',
+    appId: '{{ $.Params.firebase.appId }}',
+    measurementId: '{{ $.Params.firebase.measurementId }}'
+  };
+
+  var app = firebase.initializeApp(firebaseConfig);
+  var db = firebase.firestore();
+  var auth = firebase.auth();
+
+</script>
+{{ end }}
+{{ end }}
